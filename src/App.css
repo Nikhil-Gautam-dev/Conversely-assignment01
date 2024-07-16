@@ -1,0 +1,22 @@
+.main {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 10px;
+  row-gap: 10px;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+  /* assuming inital color to be blue */
+  background-color: blue;
+  cursor: pointer;
+}
